@@ -1,4 +1,4 @@
-# Frepap
+# FREPAP
 
 ## Programadores del FREPAP:
 
