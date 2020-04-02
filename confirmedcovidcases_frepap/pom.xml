@@ -5,7 +5,9 @@
 <modelVersion>4.0.0</modelVersion>
 
 <groupId>cs_utec.cs2901</groupId>
-<artifactId>covid</artifactId>
+<artifactId>
+confirmedcovidcases_frepap
+</artifactId>
 <version>0.1</version>
 
 <parent>
