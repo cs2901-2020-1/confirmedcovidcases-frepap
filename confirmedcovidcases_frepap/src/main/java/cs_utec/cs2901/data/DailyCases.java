@@ -3,12 +3,14 @@ package cs_utec.cs2901.data;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.Table;
 
 import java.io.Serializable;
 
 import java.util.Date;
 
 @Entity
+@Table ( name = "dailycases")
 public class DailyCases implements Serializable { // esta clase puede ser serialziable (convertida a JSON)
 
 	@Id
@@ -19,6 +21,9 @@ public class DailyCases implements Serializable { // esta clase puede ser serial
 
 	@Column
 	private Date fecha;
+
+	public DailyCases() {
+	}
 
 	public DailyCases(Long id, Integer cantidad, Date fecha) {
 		this.id = id;
